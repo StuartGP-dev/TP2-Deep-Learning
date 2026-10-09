@@ -15,7 +15,7 @@ python -m venv .venv
 **macOS (Terminal)** :
 
 ```bash
-python3.13 -m venv .venv
+python3 -m venv .venv
 ```
 
 Dans VS Code, ouvrir `TP2_MiniProject_2026.ipynb`, sélectionner l'environnement `.venv` comme noyau (installer `ipykernel` si VS Code le demande), puis **exécuter une fois la première cellule d'installation du notebook**. Elle installe les versions de `requirements.txt` et sélectionne les roues CUDA sur Windows si un GPU NVIDIA est détecté. Le code d'entraînement choisit automatiquement CUDA (NVIDIA), MPS (Mac compatible) ou CPU.
