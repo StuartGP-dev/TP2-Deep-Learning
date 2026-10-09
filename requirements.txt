@@ -1,0 +1,9 @@
+# Python 3.13 - dependances directes du TP2
+# Meme version de PyTorch sur Windows et macOS ; backend GPU selon la machine.
+torch==2.13.0
+torchvision==0.28.0
+numpy==2.3.3
+pandas==2.3.3
+Pillow==12.0.0
+matplotlib==3.10.6
+ipykernel==7.0.1

@@ -1,0 +1,15 @@
+# Environnements Python et caches
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Donnees a telecharger localement
+iqa_data/
+koniq10k_512x384/
+
+# Modeles entraines et fichiers locaux
+*.pt
+*.pth
+*.ckpt
+.DS_Store
+.vscode/
